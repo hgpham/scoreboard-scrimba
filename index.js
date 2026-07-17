@@ -4,32 +4,32 @@ let guestScore = document.getElementById("score-guest")
 let home = 0
 let guest = 0
 
-function homePlus1() {
+function homePlusOne() {
     home += 1
     homeScore.textContent = home
 }
 
-function homePlus2() {
+function homePlusTwo() {
     home += 2
     homeScore.textContent = home
 }
 
-function homePlus3() {
+function homePlusThree() {
     home += 3
     homeScore.textContent = home
 }
 
-function guestPlus1() {
+function guestPlusOne() {
     guest += 1
     guestScore.textContent = guest
 }
 
-function guestPlus2() {
+function guestPlusTwo() {
     guest += 2
     guestScore.textContent = guest
 }
 
-function guestPlus3() {
+function guestPlusThree() {
     guest += 3
     guestScore.textContent = guest
 }
